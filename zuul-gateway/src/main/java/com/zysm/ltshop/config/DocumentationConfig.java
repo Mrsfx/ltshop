@@ -1,6 +1,5 @@
 package com.zysm.ltshop.config;
 
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 import springfox.documentation.swagger.web.SwaggerResource;
