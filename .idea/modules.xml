@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-parent.iml" filepath="$PROJECT_DIR$/basic-parent/basic-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ltshop-parent.iml" filepath="$PROJECT_DIR$/ltshop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/plat-parent/plat-interface/plat-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plat-parent/plat-parent.iml" filepath="$PROJECT_DIR$/plat-parent/plat-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plat-parent/plat-service/plat-service.iml" filepath="$PROJECT_DIR$/plat-parent/plat-service/plat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/zuul-gateway/zuul-gateway.iml" />
+    </modules>
+  </component>
+</project>
