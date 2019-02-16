@@ -1,0 +1,3 @@
+com\zysm\ltshop\query\BaseQuery.class
+com\zysm\ltshop\util\AjaxResult.class
+com\zysm\ltshop\util\PageList.class

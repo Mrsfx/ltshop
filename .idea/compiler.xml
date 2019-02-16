@@ -7,20 +7,29 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="basic-util" />
+        <module name="code-generator" />
+        <module name="config-server" />
         <module name="eureka-server" />
         <module name="plat-interface" />
         <module name="plat-service" />
+        <module name="product-interface" />
+        <module name="product-service" />
         <module name="zuul-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basic-parent" target="1.8" />
       <module name="basic-util" target="1.8" />
+      <module name="code-generator" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="ltshop-parent" target="1.8" />
       <module name="plat-interface" target="1.8" />
       <module name="plat-parent" target="1.8" />
       <module name="plat-service" target="1.8" />
+      <module name="product-interface" target="1.8" />
+      <module name="product-parent" target="1.8" />
+      <module name="product-service" target="1.8" />
       <module name="zuul-gateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>

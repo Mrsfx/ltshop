@@ -13,6 +13,9 @@
         <module>eureka-server</module>
         <module>zuul-gateway</module>
         <module>plat-parent</module>
+        <module>config-server</module>
+        <module>code-generator</module>
+        <module>product-parent</module>
     </modules>
 
     <properties>

@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Map;
-
 /**
  * Copyright (C), 2018-2019, Chong Qing  zy.
  *
@@ -19,15 +17,14 @@ import java.util.Map;
  * @Version: 1.0
  */
 @RestController
-@RequestMapping("/user")
+@RequestMapping
 public class UserController {
 
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public AjaxResult login(@RequestBody User user){
-        System.out.println("--==========");
         if("root".equals(user.getUsername())&&"admin".equals(user.getPassword())){
-            return AjaxResult.getAjaxResult().setSuccess(true).setMessage("登录成功");
+            return AjaxResult.me().setSuccess(true).setMessage("登录成功").setRetObj(new User("M","aa"));
         }
-        return AjaxResult.getAjaxResult().setSuccess(false).setMessage("用户名或密码错误！");
+        return AjaxResult.me().setSuccess(false).setMessage("用户名或密码错误！");
     }
 }

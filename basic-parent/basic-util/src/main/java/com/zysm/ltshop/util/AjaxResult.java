@@ -1,18 +1,24 @@
 package com.zysm.ltshop.util;
 
 /**
- * Copyright (C), 2018-2019, Chong Qing  zy.
- *
- * @ClassName: AjaxResult
- * @Description: 请求返回对象
- * @Author: Mr_shi
- * @CreateDate: 2019/1/27 11:03
- * @Version: 1.0
+ * @author yaohuaipeng
+ * @date 2018/10/15-16:50
  */
 public class AjaxResult {
-    private Boolean success;    //是否成功
-    private String message;     //提示信息
-    private Object returnData;  //请求成功返回的数据
+    private Boolean success = true;
+    private String message = "操作成功";
+    private Object retObj = null;
+
+    public static AjaxResult me(){
+        return new AjaxResult();
+    }
+
+    public AjaxResult() {
+    }
+
+    public AjaxResult(String message) {
+        this.message = message;
+    }
 
     public Boolean getSuccess() {
         return success;
@@ -32,16 +38,12 @@ public class AjaxResult {
         return this;
     }
 
-    public Object getReturnData() {
-        return returnData;
+    public Object getRetObj() {
+        return retObj;
     }
 
-    public AjaxResult setReturnData(Object returnData) {
-        this.returnData = returnData;
+    public AjaxResult setRetObj(Object retObj) {
+        this.retObj = retObj;
         return this;
-    }
-
-    public static AjaxResult getAjaxResult(){
-        return new AjaxResult();
     }
 }

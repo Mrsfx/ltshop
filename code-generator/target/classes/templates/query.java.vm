@@ -1,0 +1,11 @@
+package com.zysm.ltshop.query;
+
+import com.zysm.ltshop.util.BaseQuery;
+
+/**
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+public class ${table.entityName}Query extends BaseQuery{
+}
