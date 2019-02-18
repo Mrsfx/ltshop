@@ -1,9 +1,11 @@
 package com.zysm.ltshop.mapper;
 
+import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.zysm.ltshop.domain.Brand;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.zysm.ltshop.query.BrandQuery;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -17,5 +19,5 @@ import java.util.List;
  */
 public interface BrandMapper extends BaseMapper<Brand> {
 
-    List<Brand> selectBrandPage(Page<Brand> page, BrandQuery query);
+    List<Brand> selectBrandPage(Page<Brand> page,@Param("ew") Wrapper wrapper);
 }

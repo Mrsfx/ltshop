@@ -30,7 +30,7 @@ public class ConfigBean {
                 .apiInfo(apiInfo())
                 .select()
                 //需要生成接口文档的包（controller所在的包）
-                .apis(RequestHandlerSelectors.basePackage("com.zysm.ltshop.web.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.zysm.ltshop.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

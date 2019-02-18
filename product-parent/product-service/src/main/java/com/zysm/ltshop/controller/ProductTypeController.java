@@ -85,4 +85,13 @@ public class ProductTypeController {
             page = productTypeService.selectPage(page);
             return new PageList<ProductType>(page.getTotal(),page.getRecords());
     }
+
+    /**
+     * 获取商品类型树
+     * @return
+     */
+    @RequestMapping(value = "/treeData",method = RequestMethod.GET)
+    public List<ProductType> getProductTypeTree(){
+        return productTypeService.getProductTypeTree();
+    }
 }

@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="basic-util" />
         <module name="code-generator" />
+        <module name="common-interface" />
+        <module name="common-service" />
         <module name="config-server" />
         <module name="eureka-server" />
         <module name="plat-interface" />
@@ -21,6 +23,9 @@
       <module name="basic-parent" target="1.8" />
       <module name="basic-util" target="1.8" />
       <module name="code-generator" target="1.8" />
+      <module name="common-interface" target="1.8" />
+      <module name="common-parent" target="1.8" />
+      <module name="common-service" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="ltshop-parent" target="1.8" />

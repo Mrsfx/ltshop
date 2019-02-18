@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p>
@@ -59,6 +61,18 @@ public class ProductType extends Model<ProductType> {
     private String seoKeywords;
     @TableField("type_template_id")
     private Long typeTemplateId;
+
+    public List<ProductType> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<ProductType> children) {
+        this.children = children;
+    }
+
+    //    子类型
+    @TableField(exist = false)
+    private List<ProductType> children = new ArrayList<>();
 
 
     public Long getId() {

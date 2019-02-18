@@ -1,5 +1,6 @@
 package com.zysm.ltshop.service.impl;
 
+import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.zysm.ltshop.domain.Brand;
 import com.zysm.ltshop.mapper.BrandMapper;
@@ -26,7 +27,11 @@ public class BrandServiceImpl extends ServiceImpl<BrandMapper, Brand> implements
     @Override
     public PageList<Brand> selectBrandPage(BrandQuery query) {
         Page<Brand> page = new Page<Brand>(query.getPage(),query.getRows());
-        page.setRecords(brandMapper.selectBrandPage(page, query));
+        EntityWrapper wrapper = new EntityWrapper();
+        wrapper.like("b.name", query.getKeyword())
+                .or().like("b.englishName", query.getKeyword())
+                .or().like("b.description", query.getKeyword());
+        page.setRecords(brandMapper.selectBrandPage(page, wrapper));
         return new PageList<Brand>(page.getTotal(),page.getRecords());
     }
 }

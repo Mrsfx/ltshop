@@ -16,6 +16,7 @@
         <module>config-server</module>
         <module>code-generator</module>
         <module>product-parent</module>
+        <module>common-parent</module>
     </modules>
 
     <properties>

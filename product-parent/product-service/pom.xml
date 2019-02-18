@@ -18,6 +18,11 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.zysm</groupId>
+            <artifactId>common-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!--springboot的支持-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -63,6 +68,13 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <!--fastjson-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
         </dependency>
     </dependencies>
 </project>
