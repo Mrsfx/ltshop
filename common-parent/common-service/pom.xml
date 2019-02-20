@@ -61,6 +61,12 @@
             <artifactId>velocity</artifactId>
             <version>1.7</version>
         </dependency>
+        <!--fastdfs-->
+        <dependency>
+            <groupId>org.csource</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.20</version>
+        </dependency>
     </dependencies>
 
 </project>

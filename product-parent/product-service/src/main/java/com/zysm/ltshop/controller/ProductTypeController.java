@@ -94,4 +94,12 @@ public class ProductTypeController {
     public List<ProductType> getProductTypeTree(){
         return productTypeService.getProductTypeTree();
     }
+
+    /**
+     * 生成静态主页面
+     */
+    @RequestMapping(value = "/createStaticPage",method = RequestMethod.POST)
+    public void createStaticPage(){
+        productTypeService.createStaticPage();
+    }
 }

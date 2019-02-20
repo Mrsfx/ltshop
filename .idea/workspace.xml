@@ -2,53 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a54230b-b61c-4630-a866-0022222e96ea" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/common-interface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/RedisClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/RedisClientFallbackFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-parent.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/common-service.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/CommonServiceApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/config/ConfigBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/RedisController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/util/RedisUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/PageClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/PageClientFallbackFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/FastDfsController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/PageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/util/FastDfsApiOpr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/util/VelocityUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/resources/fdfs_client.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/home.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/home/common-footer.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/home/common-header-top.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/home/common-header.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/home/common-link.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/home/common-nav.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/home/common-right-sidebar.vm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/product.type.vm" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-interface/src/main/java/com/zysm/ltshop/domain/ProductType.java" afterPath="$PROJECT_DIR$/product-parent/product-interface/src/main/java/com/zysm/ltshop/domain/ProductType.java" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-interface/target/classes/com/zysm/ltshop/domain/ProductType.class" afterPath="$PROJECT_DIR$/product-parent/product-interface/target/classes/com/zysm/ltshop/domain/ProductType.class" />
+      <change beforePath="$PROJECT_DIR$/code-generator/src/main/java/com/zysm/ltshop/GenteratorCode.java" afterPath="$PROJECT_DIR$/code-generator/src/main/java/com/zysm/ltshop/GenteratorCode.java" />
+      <change beforePath="$PROJECT_DIR$/common-parent/common-service/common-service.iml" afterPath="$PROJECT_DIR$/common-parent/common-service/common-service.iml" />
+      <change beforePath="$PROJECT_DIR$/common-parent/common-service/pom.xml" afterPath="$PROJECT_DIR$/common-parent/common-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/CommonServiceApplication.java" afterPath="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/CommonServiceApplication.java" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/pom.xml" afterPath="$PROJECT_DIR$/product-parent/product-service/pom.xml" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/product-service.iml" afterPath="$PROJECT_DIR$/product-parent/product-service/product-service.iml" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/ProductServiceApplication.java" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/ProductServiceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/config/ConfigBean.java" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/config/ConfigBean.java" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/controller/ProductTypeController.java" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/controller/ProductTypeController.java" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/mapper/BrandMapper.java" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/mapper/BrandMapper.java" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/IProductTypeService.java" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/IProductTypeService.java" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/impl/BrandServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/impl/ProductTypeServiceImpl.java" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/impl/ProductTypeServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/com/zysm/ltshop/mapper/BrandMapper.xml" afterPath="$PROJECT_DIR$/product-parent/product-service/src/main/resources/com/zysm/ltshop/mapper/BrandMapper.xml" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/ProductServiceApplication.class" afterPath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/ProductServiceApplication.class" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/config/ConfigBean.class" afterPath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/config/ConfigBean.class" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/controller/ProductTypeController.class" afterPath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/controller/ProductTypeController.class" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/mapper/BrandMapper.class" afterPath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/mapper/BrandMapper.class" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/mapper/BrandMapper.xml" afterPath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/mapper/BrandMapper.xml" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/service/IProductTypeService.class" afterPath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/service/IProductTypeService.class" />
-      <change beforePath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/service/impl/BrandServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/service/impl/ProductTypeServiceImpl.class" afterPath="$PROJECT_DIR$/product-parent/product-service/target/classes/com/zysm/ltshop/service/impl/ProductTypeServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/zuul-gateway/src/main/java/com/zysm/ltshop/config/DocumentationConfig.java" afterPath="$PROJECT_DIR$/zuul-gateway/src/main/java/com/zysm/ltshop/config/DocumentationConfig.java" />
-      <change beforePath="$PROJECT_DIR$/zuul-gateway/target/classes/com/zysm/ltshop/config/DocumentationConfig.class" afterPath="$PROJECT_DIR$/zuul-gateway/target/classes/com/zysm/ltshop/config/DocumentationConfig.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,7 +70,82 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ProductServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/ProductServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-parent/common-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1782">
+              <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FastDfsApiOpr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/util/FastDfsApiOpr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FastDfsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/FastDfsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenteratorCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code-generator/src/main/java/com/zysm/ltshop/GenteratorCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/PageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="26" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-parent/product-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2214">
+              <caret line="82" column="21" lean-forward="false" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,13 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/plat-parent/plat-service/pom.xml" />
-        <option value="$PROJECT_DIR$/plat-parent/plat-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/plat-parent/plat-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zuul-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zuul-gateway/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/zuul-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/com/zysm/ltshop/util/Demo.java" />
         <option value="$PROJECT_DIR$/product-parent/pom.xml" />
         <option value="$PROJECT_DIR$/code-generator/src/main/java/com/zysm/ltshop/CodeGenerator.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -130,7 +181,6 @@
         <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/com/zysm/ltshop/util/BaseQuery.java" />
         <option value="$PROJECT_DIR$/product-parent/product-interface/src/main/java/cn/itsource/aigou/query/BrandQuery.java" />
         <option value="$PROJECT_DIR$/code-generator/src/main/resources/templates/controller.java.vm" />
-        <option value="$PROJECT_DIR$/code-generator/src/main/java/com/zysm/ltshop/GenteratorCode.java" />
         <option value="$PROJECT_DIR$/code-generator/src/main/resources/templates/query.java.vm" />
         <option value="$PROJECT_DIR$/plat-parent/plat-interface/src/main/java/com/zysm/ltshop/domain/User.java" />
         <option value="$PROJECT_DIR$/plat-parent/plat-service/src/main/java/com/zysm/ltshop/web/controller/UserController.java" />
@@ -142,28 +192,36 @@
         <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/config/ConfigBean.java" />
         <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/product-parent/product-service/src/main/resources/com/zysm/ltshop/mapper/BrandMapper.xml" />
-        <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/IProductTypeService.java" />
         <option value="$PROJECT_DIR$/product-parent/product-interface/src/main/java/com/zysm/ltshop/domain/ProductType.java" />
         <option value="$PROJECT_DIR$/common-parent/pom.xml" />
         <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/config/ConfigBean.java" />
         <option value="$PROJECT_DIR$/zuul-gateway/src/main/java/com/zysm/ltshop/config/DocumentationConfig.java" />
-        <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/controller/ProductTypeController.java" />
-        <option value="$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/PageClient.java" />
-        <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/CommonServiceApplication.java" />
         <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/product-parent/product-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/ProductServiceApplication.java" />
         <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/controller/BrandController.java" />
         <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/common-parent/common-service/pom.xml" />
         <option value="$PROJECT_DIR$/common-parent/common-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/product-parent/product-service/pom.xml" />
         <option value="$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/RedisClientFallbackFactory.java" />
         <option value="$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/RedisClient.java" />
         <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/util/RedisUtils.java" />
         <option value="$PROJECT_DIR$/common-parent/common-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/util/VelocityUtils.java" />
+        <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/IProductTypeService.java" />
+        <option value="$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/PageClientFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/CommonServiceApplication.java" />
+        <option value="$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/PageClient.java" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/product-parent/product-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/controller/ProductTypeController.java" />
         <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/impl/ProductTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/product-parent/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/ProductServiceApplication.java" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/util/FastDfsApiOpr.java" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/FastDfsController.java" />
+        <option value="$PROJECT_DIR$/code-generator/src/main/java/com/zysm/ltshop/GenteratorCode.java" />
       </list>
     </option>
   </component>
@@ -210,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,34 +279,25 @@
             <path>
               <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="code-generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="code-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="code-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="code-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -255,8 +305,7 @@
             <path>
               <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="code-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -265,8 +314,7 @@
             <path>
               <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="code-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -276,249 +324,26 @@
             <path>
               <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="code-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zysm" type="462c0819:PsiDirectoryNode" />
               <item name="ltshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zysm" type="462c0819:PsiDirectoryNode" />
-              <item name="ltshop" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zysm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zysm" type="462c0819:PsiDirectoryNode" />
-              <item name="ltshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zysm" type="462c0819:PsiDirectoryNode" />
-              <item name="ltshop" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zysm" type="462c0819:PsiDirectoryNode" />
-              <item name="ltshop" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zysm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zysm" type="462c0819:PsiDirectoryNode" />
-              <item name="ltshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zysm" type="462c0819:PsiDirectoryNode" />
-              <item name="ltshop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zysm" type="462c0819:PsiDirectoryNode" />
-              <item name="ltshop" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ltshop-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ltshop-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/plat-parent/plat-interface" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -538,9 +363,9 @@
       <recent name="com.zysm.ltshop.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\IDear\IdeaProjects\ltshop-parent\common-parent\common-service\src\main\java\com\zysm\ltshop\util" />
       <recent name="D:\Java\IDear\IdeaProjects\ltshop-parent\product-parent\product-service\src\main\resources" />
       <recent name="D:\Java\IDear\IdeaProjects\ltshop-parent\common-parent\common-interface\src\main\java\com\zysm\ltshop" />
-      <recent name="D:\Java\IDear\IdeaProjects\ltshop-parent\common-parent\common-service\src\main\java\com\zysm\ltshop\util" />
       <recent name="D:\Java\IDear\IdeaProjects\ltshop-parent\basic-parent\basic-util\src\main\java\com\zysm\ltshop\util" />
       <recent name="D:\Java\IDear\IdeaProjects\ltshop-parent\code-generator\src\main\java\com\zysm\ltshop" />
     </key>
@@ -839,7 +664,11 @@
       <workItem from="1550335873749" duration="329000" />
       <workItem from="1550364628676" duration="4799000" />
       <workItem from="1550478467618" duration="6940000" />
-      <workItem from="1550488315034" duration="3325000" />
+      <workItem from="1550488315034" duration="11838000" />
+      <workItem from="1550510026783" duration="760000" />
+      <workItem from="1550563526127" duration="1375000" />
+      <workItem from="1550576601382" duration="7788000" />
+      <workItem from="1550647417187" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="修改jar包">
       <created>1548770855151</created>
@@ -848,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548770855151</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redis缓存">
+      <created>1550494575564</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550494575564</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77867000" />
+    <option name="totallyTimeSpent" value="96981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -870,17 +706,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45380116" sideWeight="0.49248928" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29239765" sideWeight="0.49248928" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49570817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29239765" sideWeight="0.49356222" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26233906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27736053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -890,9 +725,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -903,102 +739,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改jar包" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改jar包" />
+    <MESSAGE value="redis缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis缓存" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plat-parent/plat-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/com/zysm/ltshop/util/AjaxResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plat-parent/plat-interface/src/main/java/com/zysm/ltshop/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="43" column="51" lean-forward="false" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plat-parent/plat-service/src/main/java/com/zysm/ltshop/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator/src/main/java/com/zysm/ltshop/GenteratorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2062">
-          <caret line="89" column="70" lean-forward="false" selection-start-line="89" selection-start-column="70" selection-end-line="89" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/mapper/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-generator/src/main/resources/mybatis-plus-product.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/com/zysm/ltshop/util/BaseQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/com/zysm/ltshop/util/PageList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8e5acdfb-b8a9-4e89-9454-b90f1d6f5574/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-parent/product-interface/src/main/java/com/zysm/ltshop/domain/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plat-parent/plat-service/src/main/java/com/zysm/ltshop/PlatServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plat-parent/plat-service/src/main/java/com/zysm/ltshop/config/ConfigBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-81">
@@ -1060,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="33" column="10" lean-forward="false" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,15 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/PageClient.java" />
-    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul-gateway/src/main/java/com/zysm/ltshop/config/DocumentationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -1112,22 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/controller/ProductTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/CommonServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
@@ -1139,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1163,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,15 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/common-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,49 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-parent/product-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="74" column="42" lean-forward="true" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/RedisClientFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/RedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/IProductTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,55 +921,207 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="22" column="78" lean-forward="false" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/home/common-nav.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/util/VelocityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/RedisClientFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/9.5.1/feign-hystrix-9.5.1.jar!/feign/hystrix/HystrixInvocationHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/RedisController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
+        <state relative-caret-position="54">
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="513">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/PageClientFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-interface/src/main/java/com/zysm/ltshop/client/PageClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/CommonServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/resources/template/productType/product.type.vm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/IProductTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.9.RELEASE/spring-aop-5.0.9.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11880">
+          <caret line="488" column="0" lean-forward="false" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/controller/ProductTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plat-parent/plat-service/src/main/java/com/zysm/ltshop/PlatServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/impl/ProductTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-parent/product-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="82" column="21" lean-forward="false" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/ProductServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="351">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/util/FastDfsApiOpr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-parent/product-service/src/main/java/com/zysm/ltshop/service/impl/ProductTypeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-parent/common-service/src/main/java/com/zysm/ltshop/controller/FastDfsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code-generator/src/main/java/com/zysm/ltshop/GenteratorCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
           <folding />
         </state>
       </provider>
