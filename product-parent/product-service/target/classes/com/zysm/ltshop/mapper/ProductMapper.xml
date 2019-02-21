@@ -4,29 +4,80 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.zysm.ltshop.domain.Product">
-        <id column="id" property="id" />
-        <result column="createTime" property="createTime" />
-        <result column="updateTime" property="updateTime" />
-        <result column="name" property="name" />
-        <result column="subName" property="subName" />
-        <result column="code" property="code" />
-        <result column="product_type_id" property="productTypeId" />
-        <result column="onSaleTime" property="onSaleTime" />
-        <result column="offSaleTime" property="offSaleTime" />
-        <result column="brand_id" property="brandId" />
-        <result column="state" property="state" />
-        <result column="maxPrice" property="maxPrice" />
-        <result column="minPrice" property="minPrice" />
-        <result column="saleCount" property="saleCount" />
-        <result column="viewCount" property="viewCount" />
-        <result column="commentCount" property="commentCount" />
-        <result column="commentScore" property="commentScore" />
-        <result column="viewProperties" property="viewProperties" />
-        <result column="goodCommentCount" property="goodCommentCount" />
-        <result column="commonCommentCount" property="commonCommentCount" />
-        <result column="medias" property="medias" />
-        <result column="badCommentCount" property="badCommentCount" />
-        <result column="sku_template" property="skuTemplate" />
+        <id column="id" property="id"/>
+        <result column="createTime" property="createTime"/>
+        <result column="updateTime" property="updateTime"/>
+        <result column="name" property="name"/>
+        <result column="subName" property="subName"/>
+        <result column="code" property="code"/>
+        <result column="productTypeId" property="productTypeId"/>
+        <result column="onSaleTime" property="onSaleTime"/>
+        <result column="offSaleTime" property="offSaleTime"/>
+        <result column="brandId" property="brandId"/>
+        <result column="state" property="state"/>
+        <result column="maxPrice" property="maxPrice"/>
+        <result column="minPrice" property="minPrice"/>
+        <result column="saleCount" property="saleCount"/>
+        <result column="viewCount" property="viewCount"/>
+        <result column="commentCount" property="commentCount"/>
+        <result column="commentScore" property="commentScore"/>
+        <result column="viewProperties" property="viewProperties"/>
+        <result column="goodCommentCount" property="goodCommentCount"/>
+        <result column="commonCommentCount" property="commonCommentCount"/>
+        <result column="badCommentCount" property="badCommentCount"/>
+        <result column="medias" property="medias"/>
+        <result column="skuProperties" property="skuProperties"/>
     </resultMap>
 
+    <resultMap id="ProductMap" type="com.zysm.ltshop.domain.Product">
+        <id column="id" property="id"/>
+        <result column="createTime" property="createTime"/>
+        <result column="updateTime" property="updateTime"/>
+        <result column="name" property="name"/>
+        <result column="subName" property="subName"/>
+        <result column="code" property="code"/>
+        <result column="productTypeId" property="productTypeId"/>
+        <result column="onSaleTime" property="onSaleTime"/>
+        <result column="offSaleTime" property="offSaleTime"/>
+        <result column="brandId" property="brandId"/>
+        <result column="state" property="state"/>
+        <result column="maxPrice" property="maxPrice"/>
+        <result column="minPrice" property="minPrice"/>
+        <result column="saleCount" property="saleCount"/>
+        <result column="viewCount" property="viewCount"/>
+        <result column="commentCount" property="commentCount"/>
+        <result column="commentScore" property="commentScore"/>
+        <result column="viewProperties" property="viewProperties"/>
+        <result column="goodCommentCount" property="goodCommentCount"/>
+        <result column="commonCommentCount" property="commonCommentCount"/>
+        <result column="badCommentCount" property="badCommentCount"/>
+        <result column="medias" property="medias"/>
+        <result column="skuProperties" property="skuProperties"/>
+        <association property="productType" javaType="com.zysm.ltshop.domain.ProductType">
+            <id column="pid" property="id"/>
+            <result column="pname" property="name"/>
+        </association>
+        <association property="brand" javaType="com.zysm.ltshop.domain.Brand">
+            <id column="bid" property="id"/>
+            <result column="bname" property="name"/>
+        </association>
+        <association property="productExt" javaType="com.zysm.ltshop.domain.ProductExt">
+            <id column="eid" property="id"/>
+            <result column="edescription" property="description"/>
+            <result column="erichContent" property="richContent"/>
+        </association>
+    </resultMap>
+
+    <select id="selectProductPage" parameterType="com.zysm.ltshop.query.ProductQuery" resultMap="ProductMap">
+        SELECT p.* ,pt.pid pid,pt.name pname,tb.id bid,tb.name bname,
+          pe.id eid,pe.description edescription,pe.richContent erichContent
+          FROM t_product p
+          LEFT JOIN t_product_type pt ON p.productTypeId=pt.id
+          LEFT JOIN t_brand tb ON p.brandId=tb.id
+          LEFT JOIN t_product_ext pe ON p.id=pe.productId
+        <where>
+            ${ew.sqlSegment}
+        </where>
+        ORDER BY p.id
+    </select>
 </mapper>

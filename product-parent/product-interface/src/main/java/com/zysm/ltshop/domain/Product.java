@@ -1,11 +1,14 @@
 package com.zysm.ltshop.domain;
 
-import com.baomidou.mybatisplus.enums.IdType;
-import com.baomidou.mybatisplus.annotations.TableId;
-import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.activerecord.Model;
+import com.baomidou.mybatisplus.annotations.TableField;
+import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
+import com.baomidou.mybatisplus.enums.IdType;
+
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * <p>
@@ -13,7 +16,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author Mr_shi
- * @since 2019-02-15
+ * @since 2019-02-20
  */
 @TableName("t_product")
 public class Product extends Model<Product> {
@@ -39,7 +42,6 @@ public class Product extends Model<Product> {
     /**
      * 商品类型ID
      */
-    @TableField("product_type_id")
     private Long productTypeId;
     /**
      * 上架时间
@@ -49,7 +51,6 @@ public class Product extends Model<Product> {
      * 下架时间
      */
     private Long offSaleTime;
-    @TableField("brand_id")
     private Long brandId;
     /**
      * 状态
@@ -85,11 +86,43 @@ public class Product extends Model<Product> {
     private String viewProperties;
     private Integer goodCommentCount;
     private Integer commonCommentCount;
-    private String medias;
     private Integer badCommentCount;
-    @TableField("sku_template")
-    private String skuTemplate;
+    /**
+     * 媒体属性
+     */
+    private String medias;
+    private String skuProperties;
 
+    @TableField(exist = false)
+    private ProductType productType;
+    @TableField(exist = false)
+    private Brand brand;
+    @TableField(exist = false)
+    private ProductExt productExt = new ProductExt();
+
+    public ProductType getProductType() {
+        return productType;
+    }
+
+    public void setProductType(ProductType productType) {
+        this.productType = productType;
+    }
+
+    public Brand getBrand() {
+        return brand;
+    }
+
+    public void setBrand(Brand brand) {
+        this.brand = brand;
+    }
+
+    public ProductExt getProductExt() {
+        return productExt;
+    }
+
+    public void setProductExt(ProductExt productExt) {
+        this.productExt = productExt;
+    }
 
     public Long getId() {
         return id;
@@ -147,16 +180,30 @@ public class Product extends Model<Product> {
         this.productTypeId = productTypeId;
     }
 
-    public Long getOnSaleTime() {
-        return onSaleTime;
+//    日期格式转换
+    public String getOnSaleTime() {
+        if(onSaleTime!=null){
+            Date date = new Date(onSaleTime);
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            String format = dateFormat.format(date);
+            return format;
+        }
+        return null;
     }
 
     public void setOnSaleTime(Long onSaleTime) {
         this.onSaleTime = onSaleTime;
     }
 
-    public Long getOffSaleTime() {
-        return offSaleTime;
+//    日期格式转换
+    public String getOffSaleTime() {
+        if (offSaleTime != null) {
+            Date date = new Date(offSaleTime);
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            String format = dateFormat.format(date);
+            return format;
+        }
+        return null;
     }
 
     public void setOffSaleTime(Long offSaleTime) {
@@ -251,14 +298,6 @@ public class Product extends Model<Product> {
         this.commonCommentCount = commonCommentCount;
     }
 
-    public String getMedias() {
-        return medias;
-    }
-
-    public void setMedias(String medias) {
-        this.medias = medias;
-    }
-
     public Integer getBadCommentCount() {
         return badCommentCount;
     }
@@ -267,12 +306,20 @@ public class Product extends Model<Product> {
         this.badCommentCount = badCommentCount;
     }
 
-    public String getSkuTemplate() {
-        return skuTemplate;
+    public String getMedias() {
+        return medias;
     }
 
-    public void setSkuTemplate(String skuTemplate) {
-        this.skuTemplate = skuTemplate;
+    public void setMedias(String medias) {
+        this.medias = medias;
+    }
+
+    public String getSkuProperties() {
+        return skuProperties;
+    }
+
+    public void setSkuProperties(String skuProperties) {
+        this.skuProperties = skuProperties;
     }
 
     @Override
@@ -303,9 +350,9 @@ public class Product extends Model<Product> {
         ", viewProperties=" + viewProperties +
         ", goodCommentCount=" + goodCommentCount +
         ", commonCommentCount=" + commonCommentCount +
-        ", medias=" + medias +
         ", badCommentCount=" + badCommentCount +
-        ", skuTemplate=" + skuTemplate +
+        ", medias=" + medias +
+        ", skuProperties=" + skuProperties +
         "}";
     }
 }
